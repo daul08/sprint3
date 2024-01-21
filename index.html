@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="script/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="dflex bc p-15 w-800 br-15">
+        <div>
+            <div> Введите сумму:</div>
+            <div class="dflex mt-5">
+                <div><input id="amount" class="p-3" type="text"></div>
+                <div class="ml-5"><select class="p-3" id="select" onchange=convert()>
+                    <option>KZT</option>
+                    <option>USD</option>
+                    <option>EUR</option>
+                </select></div>
+            </div>
+        </div>
+        <div class="ml-10">
+            <div>KZT (tenge)</div>
+            <div class="mt-5"><input id="1" class="bc bgcol-grey p-3" name="tenge"></input></div>
+        </div>
+        <div class="ml-10">
+            <div>USD (dollar)</div>
+            <div class="mt-5"><input id="2" class="bc bgcol-grey p-3" name="usd"></input></div>
+        </div>
+        <div class="ml-10">
+            <div>EUR (euro)</div>
+            <div class="mt-5"><input id="3" class="bc bgcol-grey p-3" name="eur"></input></div>
+        </div>
+    </div>
+</body>
+</html>
